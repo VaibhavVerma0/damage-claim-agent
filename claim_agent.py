@@ -52,7 +52,23 @@ Your job, in order:
    your decision. Use ["none"] if no image is usable.
 6. Flag any risk_flags that apply (image quality issues, mismatches,
    possible manipulation, user history risk, etc). Use ["none"] if none apply.
-7. Estimate severity.
+7. Estimate severity. Use these calibration guidelines, not just gut feel:
+   - "low": light cosmetic marks — small scratches, light scuffs, minor
+     scrapes that don't affect structure or function (e.g. paint-deep
+     scratch, small surface scuff).
+   - "medium": clearly visible damage with some deformation but contained
+     to one area and not affecting safety/function — a single dent, a
+     crack that hasn't spread far, one broken/missing small part.
+   - "high": significant structural damage, safety-relevant damage
+     (e.g. a windshield crack that impairs visibility, a shattered
+     light/mirror, multiple affected areas, deep deformation), or damage
+     that would require major repair/replacement.
+   - "none": no issue visible at all.
+   - "unknown": can't assess from the images provided.
+   Default toward "medium" rather than "high" unless the damage is clearly
+   severe — most everyday dents, scratches, and single cracks are "medium,"
+   not "high." Reserve "high" for damage that's visually extensive or
+   safety-relevant, not just "damage exists."
 8. Write a short claim_status_justification grounded in what's actually
    visible in the images — reference image IDs where useful.
 

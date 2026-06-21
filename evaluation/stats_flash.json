@@ -1,1 +1,10 @@
-{"call_count": 5, "failed_calls": 0, "retried_calls": 0, "images_processed": 5, "input_tokens": 1400, "output_tokens": 350, "elapsed_seconds": 12.4, "model": "gemini-2.5-flash"}
+{
+  "call_count": 5,
+  "failed_calls": 0,
+  "retried_calls": 0,
+  "images_processed": 8,
+  "input_tokens": 12029,
+  "output_tokens": 901,
+  "elapsed_seconds": 53.56,
+  "model": "gemini-2.5-flash"
+}

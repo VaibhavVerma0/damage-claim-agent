@@ -3,8 +3,8 @@
   "failed_calls": 0,
   "retried_calls": 0,
   "images_processed": 8,
-  "input_tokens": 12029,
-  "output_tokens": 951,
-  "elapsed_seconds": 24.88,
+  "input_tokens": 13284,
+  "output_tokens": 904,
+  "elapsed_seconds": 23.0,
   "model": "gemini-2.5-flash-lite"
 }
