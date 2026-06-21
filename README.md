@@ -9,8 +9,11 @@ photo evidence supports, contradicts, or fails to address the claim.
 1. For each claim row, load all referenced images.
 2. Build a prompt containing: the claim conversation, the relevant evidence
    requirements for that object type, and the user's claim history.
-3. Send the images + prompt to Gemini 2.0 Flash with forced JSON output
-   matching a strict schema.
+3. Send the images + prompt to Gemini (model configurable in `config.py` —
+   currently `gemini-2.5-flash-lite`, chosen for its free-tier daily quota;
+   swap `MODEL_NAME` if your account has different limits or you want a
+   different speed/quality tradeoff) with forced JSON output matching a
+   strict schema.
 4. Validate every field against the allowed-value lists from the problem
    statement, clamping or falling back to a safe default
    (`unknown` / `not_enough_information`) if the model returns something
