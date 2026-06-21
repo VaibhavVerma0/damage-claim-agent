@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+dataset/
+output.csv
+sample_output.csv

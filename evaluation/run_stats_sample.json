@@ -1,0 +1,9 @@
+{
+  "call_count": 17,
+  "failed_calls": 3,
+  "retried_calls": 13,
+  "images_processed": 25,
+  "input_tokens": 40202,
+  "output_tokens": 3233,
+  "elapsed_seconds": 355.59
+}
